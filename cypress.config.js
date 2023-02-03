@@ -3,6 +3,8 @@ module.exports = {
     setupNodeEvents(on, config) {},
     supportFile: false,
     fixturesFolder: false,
-    pageLoadTimeout: 100000,
+    experimentalModifyObstructiveThirdPartyCode: true,
+    experimentalSessionAndOrigin: true,
+    baseUrl: "https://192.168.124.70",
   },
 }
